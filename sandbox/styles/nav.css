@@ -1,0 +1,30 @@
+.nicon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+.subnav {
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100vh;
+  margin-right: 10%;
+}
+.nav {
+  height: 100vh;
+  width: 10%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

@@ -1,0 +1,51 @@
+.home {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.subhome {
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.img {
+  padding: 20px;
+  border-radius: 9px;
+  width: 60%;
+  box-shadow: -5px 5px 10px orangered;
+}
+.fdetail {
+  width: 50%;
+  margin-left: 10%;
+}
+.fdetail > p {
+  margin-top: 20px;
+}
+.fdetail > h3 {
+  margin-top: 20px;
+}
+.fdetail > h2 {
+  color: orangered;
+}
+.imgicon {
+  width: 100%;
+  height: 100%;
+}
+.fbtn {
+  cursor: pointer;
+  margin-top: 20px;
+  border: none;
+  padding: 20px;
+  border-radius: 50rem;
+}
+.btnarrows {
+  border: 1px solid red;
+  padding: 10px;
+  margin-left: 5px;
+  border-radius: 50%;
+  background-color: orangered;
+}
